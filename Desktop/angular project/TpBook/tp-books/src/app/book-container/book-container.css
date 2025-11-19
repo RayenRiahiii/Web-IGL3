@@ -1,0 +1,24 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin: 20px;
+  gap: 20px;
+  flex-direction: row-reverse; /* inverser gauche/droite */
+}
+
+/* Formulaire à gauche (visuellement) */
+.form-section {
+  flex: 1;
+}
+
+/* Table à droite (visuellement) */
+.table-section {
+  flex: 2;
+}
+
+/* Rendre le formulaire sticky */
+.form-section app-book-form {
+  position: sticky;
+  top: 20px;
+}
